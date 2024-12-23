@@ -32,6 +32,24 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addTier",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "deadline",
 				"outputs": [
@@ -58,7 +76,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tierIndex",
+						"type": "uint256"
+					}
+				],
 				"name": "fund",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -117,6 +141,61 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "removeTier",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "enum Crowdfunding.CampaignState",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tiers",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "backers",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "withdraw",
 				"outputs": [],
@@ -152,11 +231,11 @@
 	},
 	"sources": {
 		"contracts/CrowdFunding.sol": {
-			"keccak256": "0x7847e0160f40ed3d0c7759a69fe577e8eb9af3c457c0a8955dc764d358195b91",
+			"keccak256": "0x3299653dde2c606295915387d22eaa8e31de6a6e8861ca8444840387b7ae2ec4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://31d4a9ffe33c06f2341571984adef3758a411bb2eb6f369404262f6741f76bae",
-				"dweb:/ipfs/QmRiQUZDMULHdSaLaJ5LHRonqgaP7zKYGfkaw6dYXeZP6N"
+				"bzz-raw://a67fe91504645a8b025c10774f396dcd7ad46320e179311c9e013efd2274c015",
+				"dweb:/ipfs/QmUv23W2m3PybLJZfcKnAS6voJrsBasFDCvDueRVzgjuR2"
 			]
 		}
 	},
