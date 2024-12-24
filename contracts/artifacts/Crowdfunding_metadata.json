@@ -8,6 +8,11 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
@@ -357,11 +362,11 @@
 	},
 	"sources": {
 		"contracts/CrowdFunding.sol": {
-			"keccak256": "0xd8afae9cd4e7564d1c73ca86d3ced19121534a7f0ebfb7b92580f5cd9f2fbf67",
+			"keccak256": "0x1ab371c65fa1d302c0325135e0ba9ff690a93f9e70d73da85df1eb068c4c0452",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://677554b30f01ece4adb69042020d66cf76cd05602abbee031737363bd91ba4d3",
-				"dweb:/ipfs/QmXKi6SXGsekGuKdjGvStgbD25yfWUFfN7LMeoDd289zLR"
+				"bzz-raw://1ea26d076bbfe0e30003109c899610296952ff7da0ed5f0d0a144dfd20630907",
+				"dweb:/ipfs/QmNfURY5Rc6qaiPtLgWkxYof9zn3TZbfLqvGrimiMnAudj"
 			]
 		}
 	},
